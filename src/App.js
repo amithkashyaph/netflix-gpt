@@ -1,12 +1,8 @@
-import logo from "./logo.svg";
 import "./App.css";
+import Body from "./components/Body";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="text-4xl m-4 p-4">Lets build Netflix-GPT!</header>
-    </div>
-  );
+  return <Body />;
 }
 
 export default App;
