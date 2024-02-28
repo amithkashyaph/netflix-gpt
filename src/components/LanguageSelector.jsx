@@ -8,7 +8,6 @@ const LanguageSelector = () => {
   const showGPTSearch = useSelector((store) => store.gpt.showGPTSearch);
 
   const handleLanguageChange = (e) => {
-    console.log(e.target.value);
     dispatch(changeLanguage(e.target.value));
   };
 
